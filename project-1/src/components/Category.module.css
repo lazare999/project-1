@@ -1,0 +1,50 @@
+.categorys {
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
+}
+
+.ul {
+  list-style-type: none;
+}
+
+.li {
+  color: aliceblue;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.listP {
+  text-decoration: none;
+  color: aliceblue;
+  background-color: rgb(42, 182, 0);
+  padding: 24px;
+  margin: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font: inherit;
+  cursor: pointer;
+  background: #230052;
+  border: 1px solid #230052;
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.listP:focus {
+  outline: none;
+}
+
+.listP:hover,
+.listP:active {
+  background-color: #460897;
+  border-color: #460897;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
+}

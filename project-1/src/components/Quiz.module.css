@@ -1,0 +1,36 @@
+.h1 {
+  color: red;
+}
+
+.input {
+  text-align: center;
+}
+
+.quiz {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aliceblue;
+  margin: 40px;
+  border-radius: 10px;
+  padding: 45px;
+  gap: 10px;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.black {
+  color: black;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
+}

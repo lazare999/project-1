@@ -1,0 +1,27 @@
+.header {
+  color: aliceblue;
+  font-size: 40px;
+  padding: 70px;
+  margin-bottom: 50px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+  height: 100px;
+}
+
+@media (max-width: 600px) {
+  .header {
+    color: aliceblue;
+    font-size: 30px;
+    padding: 84px;
+    /* margin-bottom: 4px; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    height: 100px;
+  }
+}

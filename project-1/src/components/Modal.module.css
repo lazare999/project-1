@@ -1,0 +1,102 @@
+.modalWrapper {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+}
+
+.modalBackdrop {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: rgb(0, 0, 0, 0.3);
+}
+
+.modalBox {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 70%;
+  width: 60%;
+  overflow-y: auto;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  z-index: 101;
+  padding: 40px;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: modalOpen 0.3s ease-out forwards;
+}
+
+@keyframes modalOpen {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.modalBox h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.modalBox h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.modalBox h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.modalBox h4 {
+  font-size: 18px;
+  color: #999;
+  cursor: pointer;
+}
+
+.modalBox h4:hover {
+  color: #555;
+}
+
+
+.button {
+  font: inherit;
+  cursor: pointer;
+  background: #230052;
+  border: 1px solid #230052;
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:hover,
+.button:active {
+  background-color: #460897;
+  border-color: #460897;
+}
